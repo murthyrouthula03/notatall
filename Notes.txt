@@ -1,0 +1,12 @@
+Harvard style referencing.
+
+Mendeley and endnote
+
+sci-hub
+arxiv
+
+https://medium.com/@yashvardhanvs/classification-using-pre-trained-bert-model-transfer-learning-2d50f404ed4c
+
+https://towardsdatascience.com/build-a-bert-sci-kit-transformer-59d60ddd54a5
+
+https://colab.research.google.com/drive/18FQxp9QGOORhMENafQilEmeAo88pqVtP#scrollTo=JvwpbLMgJiQQ

@@ -1,0 +1,23 @@
+Thematic analysis for labelling type of comments. How to do that and necessary for dissertation?
+
+2 youtube channels.. can we combine them and do train or individual is better?
+
+porter stemmer, do we need to apply for stemming here?
+
+Visualizations are going to be?
+
+=======================================================================================
+
+title
+
+obj:
+
+investigate multi vectorization techniques
+understand feature engineering methods in NLP
+evaluated methods
+to check the potential of differnet algorithms
+
+
+======================================================================================
+
+visualizations.. can I use preprocessing datasets available?

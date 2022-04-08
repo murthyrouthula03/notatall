@@ -1,0 +1,11 @@
+11/12 size words in Arial or Times New Roman
+
+1.5 line spacing
+
+left right margins 1.25
+
+use text justification
+
+chapter headings - 18
+sub headings -16
+
