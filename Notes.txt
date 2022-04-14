@@ -10,3 +10,13 @@ https://medium.com/@yashvardhanvs/classification-using-pre-trained-bert-model-tr
 https://towardsdatascience.com/build-a-bert-sci-kit-transformer-59d60ddd54a5
 
 https://colab.research.google.com/drive/18FQxp9QGOORhMENafQilEmeAo88pqVtP#scrollTo=JvwpbLMgJiQQ
+
+
+model:
+https://tfhub.dev/tensorflow/bert_en_uncased_L-12_H-768_A-12/1
+
+convert_by_vocab
+
+([['pu', '##dina', 'pt', '##ta', 'nh', '##i', 'dal', '##u', 'to'],
+   [16405, 18979, 13866, 2696, 18699, 2072, 17488, 2226, 2000]],
+  7)
