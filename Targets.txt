@@ -14,3 +14,7 @@ task-3:
 frequency vectorizer
 pre-trained bert model vectorizer (Hinglish)
 gensim model for hinglish instead of google model.
+
+task-4:
+GPT transformers
+XLM transformers

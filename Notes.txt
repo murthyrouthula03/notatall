@@ -20,3 +20,11 @@ convert_by_vocab
 ([['pu', '##dina', 'pt', '##ta', 'nh', '##i', 'dal', '##u', 'to'],
    [16405, 18979, 13866, 2696, 18699, 2072, 17488, 2226, 2000]],
   7)
+
+
+Algorithms to use:
+KNN
+Logistic
+Random forests
+Decision trees
+SVM
