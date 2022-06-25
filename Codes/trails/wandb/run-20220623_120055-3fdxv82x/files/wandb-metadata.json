@@ -1,0 +1,21 @@
+{
+    "os": "Windows-10-10.0.22000-SP0",
+    "python": "3.9.7",
+    "heartbeatAt": "2022-06-23T11:01:05.472462",
+    "startedAt": "2022-06-23T11:00:55.494694",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "Desktop/DkIT/Dissertation/Codes/trails/transformer_finetuned_models.ipynb",
+    "root": "C:/Users/murth/Desktop/DkIT/Dissertation",
+    "git": {
+        "remote": "https://github.com/murthyrouthula03/notatall.git",
+        "commit": "d57bb04d2b6e39f1afe514c5c1998f216def07f6"
+    },
+    "email": "murthyrouthula@gmail.com",
+    "host": "Murthy-World",
+    "username": "murth",
+    "executable": "C:\\Users\\murth\\anaconda3\\python.exe"
+}

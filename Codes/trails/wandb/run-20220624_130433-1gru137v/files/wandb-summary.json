@@ -1,0 +1,1 @@
+{"loss": 0.4225360155105591, "learning_rate": 0.0, "epoch": 2.0, "_timestamp": 1656085465, "_runtime": 13192, "_step": 980, "eval_loss": 0.40698509831582347, "_wandb": {"runtime": 13401}}

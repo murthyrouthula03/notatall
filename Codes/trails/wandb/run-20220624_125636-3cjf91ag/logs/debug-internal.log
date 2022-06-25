@@ -1,0 +1,192 @@
+2022-06-24 12:56:38,454 INFO    MainThread:10352 [internal.py:wandb_internal():90] W&B internal server running at pid: 10352, started at: 2022-06-24 12:56:38.454002
+2022-06-24 12:56:38,454 INFO    WriterThread:10352 [datastore.py:open_for_write():75] open: C:\Users\murth\Desktop\DkIT\Dissertation\Codes\trails\wandb\run-20220624_125636-3cjf91ag\run-3cjf91ag.wandb
+2022-06-24 12:56:38,454 DEBUG   SenderThread:10352 [sender.py:send():235] send: header
+2022-06-24 12:56:38,454 DEBUG   SenderThread:10352 [sender.py:send():235] send: run
+2022-06-24 12:56:38,929 DEBUG   HandlerThread:10352 [handler.py:handle_request():141] handle_request: check_version
+2022-06-24 12:56:38,929 INFO    SenderThread:10352 [dir_watcher.py:__init__():205] watching files in: C:\Users\murth\Desktop\DkIT\Dissertation\Codes\trails\wandb\run-20220624_125636-3cjf91ag\files
+2022-06-24 12:56:38,929 INFO    SenderThread:10352 [sender.py:_start_run_threads():812] run started: 3cjf91ag with start time 1656071796
+2022-06-24 12:56:38,929 DEBUG   SenderThread:10352 [sender.py:send():235] send: summary
+2022-06-24 12:56:38,929 INFO    SenderThread:10352 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-24 12:56:38,929 DEBUG   SenderThread:10352 [sender.py:send_request():249] send_request: check_version
+2022-06-24 12:56:39,118 DEBUG   HandlerThread:10352 [handler.py:handle_request():141] handle_request: run_start
+2022-06-24 12:56:39,165 DEBUG   HandlerThread:10352 [meta.py:__init__():35] meta init
+2022-06-24 12:56:39,165 DEBUG   HandlerThread:10352 [meta.py:__init__():49] meta init done
+2022-06-24 12:56:39,165 DEBUG   HandlerThread:10352 [meta.py:probe():209] probe
+2022-06-24 12:56:39,183 DEBUG   HandlerThread:10352 [meta.py:_setup_git():199] setup git
+2022-06-24 12:56:39,244 DEBUG   HandlerThread:10352 [meta.py:_setup_git():206] setup git done
+2022-06-24 12:56:39,244 DEBUG   HandlerThread:10352 [meta.py:_save_pip():53] save pip
+2022-06-24 12:56:39,244 DEBUG   HandlerThread:10352 [meta.py:_save_pip():67] save pip done
+2022-06-24 12:56:39,244 DEBUG   HandlerThread:10352 [meta.py:_save_conda():74] save conda
+2022-06-24 12:56:39,953 INFO    Thread-11 :10352 [dir_watcher.py:_on_file_created():256] file/dir created: C:\Users\murth\Desktop\DkIT\Dissertation\Codes\trails\wandb\run-20220624_125636-3cjf91ag\files\requirements.txt
+2022-06-24 12:56:39,953 INFO    Thread-11 :10352 [dir_watcher.py:_on_file_created():256] file/dir created: C:\Users\murth\Desktop\DkIT\Dissertation\Codes\trails\wandb\run-20220624_125636-3cjf91ag\files\wandb-summary.json
+2022-06-24 12:56:39,953 INFO    Thread-11 :10352 [dir_watcher.py:_on_file_created():256] file/dir created: C:\Users\murth\Desktop\DkIT\Dissertation\Codes\trails\wandb\run-20220624_125636-3cjf91ag\files\conda-environment.yaml
+2022-06-24 12:56:44,997 INFO    Thread-11 :10352 [dir_watcher.py:_on_file_created():256] file/dir created: C:\Users\murth\Desktop\DkIT\Dissertation\Codes\trails\wandb\run-20220624_125636-3cjf91ag\files\output.log
+2022-06-24 12:56:59,876 DEBUG   HandlerThread:10352 [meta.py:_save_conda():84] save conda done
+2022-06-24 12:56:59,876 DEBUG   HandlerThread:10352 [meta.py:probe():247] probe done
+2022-06-24 12:57:00,151 INFO    Thread-11 :10352 [dir_watcher.py:_on_file_modified():269] file/dir modified: C:\Users\murth\Desktop\DkIT\Dissertation\Codes\trails\wandb\run-20220624_125636-3cjf91ag\files\conda-environment.yaml
+2022-06-24 12:57:00,151 INFO    Thread-11 :10352 [dir_watcher.py:_on_file_created():256] file/dir created: C:\Users\murth\Desktop\DkIT\Dissertation\Codes\trails\wandb\run-20220624_125636-3cjf91ag\files\wandb-metadata.json
+2022-06-24 12:57:00,780 DEBUG   HandlerThread:10352 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 12:57:00,780 DEBUG   SenderThread:10352 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 12:57:00,795 DEBUG   HandlerThread:10352 [handler.py:handle_request():141] handle_request: pause
+2022-06-24 12:57:00,795 INFO    HandlerThread:10352 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-06-24 12:57:00,858 DEBUG   HandlerThread:10352 [handler.py:handle_request():141] handle_request: resume
+2022-06-24 12:57:00,858 INFO    HandlerThread:10352 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-06-24 12:57:01,058 DEBUG   SenderThread:10352 [sender.py:send():235] send: telemetry
+2022-06-24 12:57:01,058 DEBUG   SenderThread:10352 [sender.py:send():235] send: files
+2022-06-24 12:57:01,058 INFO    SenderThread:10352 [sender.py:_save_file():949] saving file wandb-metadata.json with policy now
+2022-06-24 12:57:01,058 DEBUG   SenderThread:10352 [sender.py:send():235] send: stats
+2022-06-24 12:57:01,816 INFO    Thread-18 :10352 [upload_job.py:push():132] Uploaded file C:\Users\murth\AppData\Local\Temp\tmpddh8w8fswandb\2gxfi7lk-wandb-metadata.json
+2022-06-24 12:57:04,220 DEBUG   HandlerThread:10352 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 12:57:04,220 DEBUG   SenderThread:10352 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 12:57:11,333 INFO    Thread-11 :10352 [dir_watcher.py:_on_file_modified():269] file/dir modified: C:\Users\murth\Desktop\DkIT\Dissertation\Codes\trails\wandb\run-20220624_125636-3cjf91ag\files\config.yaml
+2022-06-24 12:57:19,468 DEBUG   HandlerThread:10352 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 12:57:19,468 DEBUG   SenderThread:10352 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 12:57:33,506 DEBUG   SenderThread:10352 [sender.py:send():235] send: stats
+2022-06-24 12:57:34,888 DEBUG   HandlerThread:10352 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 12:57:34,889 DEBUG   SenderThread:10352 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 12:57:50,232 DEBUG   HandlerThread:10352 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 12:57:50,235 DEBUG   SenderThread:10352 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 12:58:05,591 DEBUG   HandlerThread:10352 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 12:58:05,592 DEBUG   SenderThread:10352 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 12:58:08,359 DEBUG   SenderThread:10352 [sender.py:send():235] send: stats
+2022-06-24 12:58:20,842 DEBUG   HandlerThread:10352 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 12:58:20,845 DEBUG   SenderThread:10352 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 12:58:36,322 DEBUG   HandlerThread:10352 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 12:58:36,323 DEBUG   SenderThread:10352 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 12:58:42,957 DEBUG   SenderThread:10352 [sender.py:send():235] send: stats
+2022-06-24 12:58:51,777 DEBUG   HandlerThread:10352 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 12:58:51,777 DEBUG   SenderThread:10352 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 12:59:07,039 DEBUG   HandlerThread:10352 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 12:59:07,039 DEBUG   SenderThread:10352 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 12:59:17,584 DEBUG   SenderThread:10352 [sender.py:send():235] send: stats
+2022-06-24 12:59:22,348 DEBUG   HandlerThread:10352 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 12:59:22,348 DEBUG   SenderThread:10352 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 12:59:38,842 DEBUG   HandlerThread:10352 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 12:59:38,842 DEBUG   SenderThread:10352 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 12:59:51,770 DEBUG   SenderThread:10352 [sender.py:send():235] send: stats
+2022-06-24 12:59:54,465 DEBUG   HandlerThread:10352 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 12:59:54,466 DEBUG   SenderThread:10352 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 13:00:04,405 DEBUG   HandlerThread:10352 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-24 13:00:04,409 DEBUG   HandlerThread:10352 [handler.py:handle_request():141] handle_request: pause
+2022-06-24 13:00:04,409 INFO    HandlerThread:10352 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-06-24 13:00:04,433 DEBUG   HandlerThread:10352 [handler.py:handle_request():141] handle_request: resume
+2022-06-24 13:00:04,433 INFO    HandlerThread:10352 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-06-24 13:00:04,446 DEBUG   SenderThread:10352 [sender.py:send():235] send: stats
+2022-06-24 13:00:09,694 DEBUG   HandlerThread:10352 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 13:00:09,694 DEBUG   SenderThread:10352 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 13:00:24,959 DEBUG   HandlerThread:10352 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 13:00:24,959 DEBUG   SenderThread:10352 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 13:00:36,501 DEBUG   SenderThread:10352 [sender.py:send():235] send: stats
+2022-06-24 13:00:40,609 DEBUG   HandlerThread:10352 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 13:00:40,610 DEBUG   SenderThread:10352 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 13:00:55,865 DEBUG   HandlerThread:10352 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 13:00:55,865 DEBUG   SenderThread:10352 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 13:01:11,062 DEBUG   SenderThread:10352 [sender.py:send():235] send: stats
+2022-06-24 13:01:11,177 DEBUG   HandlerThread:10352 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 13:01:11,177 DEBUG   SenderThread:10352 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 13:01:26,509 DEBUG   HandlerThread:10352 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 13:01:26,509 DEBUG   SenderThread:10352 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 13:01:41,775 DEBUG   HandlerThread:10352 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 13:01:41,775 DEBUG   SenderThread:10352 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 13:01:44,287 DEBUG   HandlerThread:10352 [handler.py:handle_request():141] handle_request: pause
+2022-06-24 13:01:44,287 INFO    HandlerThread:10352 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-06-24 13:01:44,311 DEBUG   SenderThread:10352 [sender.py:send():235] send: stats
+2022-06-24 13:01:57,014 DEBUG   HandlerThread:10352 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 13:01:57,014 DEBUG   SenderThread:10352 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 13:02:12,364 DEBUG   HandlerThread:10352 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 13:02:12,364 DEBUG   SenderThread:10352 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 13:02:27,649 DEBUG   HandlerThread:10352 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 13:02:27,649 DEBUG   SenderThread:10352 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 13:02:42,882 DEBUG   HandlerThread:10352 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 13:02:42,882 DEBUG   SenderThread:10352 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 13:02:50,277 DEBUG   SenderThread:10352 [sender.py:send():235] send: telemetry
+2022-06-24 13:02:50,695 DEBUG   SenderThread:10352 [sender.py:send():235] send: exit
+2022-06-24 13:02:50,695 INFO    SenderThread:10352 [sender.py:send_exit():371] handling exit code: 0
+2022-06-24 13:02:50,695 INFO    SenderThread:10352 [sender.py:send_exit():373] handling runtime: 305
+2022-06-24 13:02:50,695 DEBUG   HandlerThread:10352 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-24 13:02:50,695 INFO    SenderThread:10352 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-24 13:02:50,695 INFO    SenderThread:10352 [sender.py:send_exit():379] send defer
+2022-06-24 13:02:50,695 DEBUG   SenderThread:10352 [sender.py:send_request():249] send_request: poll_exit
+2022-06-24 13:02:50,695 DEBUG   HandlerThread:10352 [handler.py:handle_request():141] handle_request: defer
+2022-06-24 13:02:50,695 INFO    HandlerThread:10352 [handler.py:handle_request_defer():164] handle defer: 0
+2022-06-24 13:02:50,695 DEBUG   SenderThread:10352 [sender.py:send_request():249] send_request: defer
+2022-06-24 13:02:50,695 INFO    SenderThread:10352 [sender.py:send_request_defer():388] handle sender defer: 0
+2022-06-24 13:02:50,695 INFO    SenderThread:10352 [sender.py:transition_state():392] send defer: 1
+2022-06-24 13:02:50,695 DEBUG   HandlerThread:10352 [handler.py:handle_request():141] handle_request: defer
+2022-06-24 13:02:50,695 INFO    HandlerThread:10352 [handler.py:handle_request_defer():164] handle defer: 1
+2022-06-24 13:02:50,695 DEBUG   SenderThread:10352 [sender.py:send_request():249] send_request: defer
+2022-06-24 13:02:50,695 INFO    SenderThread:10352 [sender.py:send_request_defer():388] handle sender defer: 1
+2022-06-24 13:02:50,695 INFO    SenderThread:10352 [sender.py:transition_state():392] send defer: 2
+2022-06-24 13:02:50,695 DEBUG   HandlerThread:10352 [handler.py:handle_request():141] handle_request: defer
+2022-06-24 13:02:50,695 INFO    HandlerThread:10352 [handler.py:handle_request_defer():164] handle defer: 2
+2022-06-24 13:02:50,695 DEBUG   SenderThread:10352 [sender.py:send():235] send: history
+2022-06-24 13:02:50,695 DEBUG   SenderThread:10352 [sender.py:send():235] send: summary
+2022-06-24 13:02:50,695 INFO    SenderThread:10352 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-24 13:02:50,695 DEBUG   SenderThread:10352 [sender.py:send_request():249] send_request: defer
+2022-06-24 13:02:50,695 INFO    SenderThread:10352 [sender.py:send_request_defer():388] handle sender defer: 2
+2022-06-24 13:02:50,695 INFO    SenderThread:10352 [sender.py:transition_state():392] send defer: 3
+2022-06-24 13:02:50,695 DEBUG   HandlerThread:10352 [handler.py:handle_request():141] handle_request: defer
+2022-06-24 13:02:50,695 INFO    HandlerThread:10352 [handler.py:handle_request_defer():164] handle defer: 3
+2022-06-24 13:02:50,695 DEBUG   SenderThread:10352 [sender.py:send_request():249] send_request: defer
+2022-06-24 13:02:50,695 INFO    SenderThread:10352 [sender.py:send_request_defer():388] handle sender defer: 3
+2022-06-24 13:02:50,695 INFO    SenderThread:10352 [sender.py:transition_state():392] send defer: 4
+2022-06-24 13:02:50,695 DEBUG   HandlerThread:10352 [handler.py:handle_request():141] handle_request: defer
+2022-06-24 13:02:50,695 INFO    HandlerThread:10352 [handler.py:handle_request_defer():164] handle defer: 4
+2022-06-24 13:02:50,695 DEBUG   SenderThread:10352 [sender.py:send():235] send: summary
+2022-06-24 13:02:50,695 INFO    SenderThread:10352 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-24 13:02:50,695 DEBUG   SenderThread:10352 [sender.py:send_request():249] send_request: defer
+2022-06-24 13:02:50,695 INFO    SenderThread:10352 [sender.py:send_request_defer():388] handle sender defer: 4
+2022-06-24 13:02:50,695 INFO    SenderThread:10352 [sender.py:transition_state():392] send defer: 5
+2022-06-24 13:02:50,695 DEBUG   HandlerThread:10352 [handler.py:handle_request():141] handle_request: defer
+2022-06-24 13:02:50,695 INFO    HandlerThread:10352 [handler.py:handle_request_defer():164] handle defer: 5
+2022-06-24 13:02:50,695 DEBUG   SenderThread:10352 [sender.py:send_request():249] send_request: defer
+2022-06-24 13:02:50,695 INFO    SenderThread:10352 [sender.py:send_request_defer():388] handle sender defer: 5
+2022-06-24 13:02:50,799 DEBUG   HandlerThread:10352 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-24 13:02:50,799 INFO    Thread-11 :10352 [dir_watcher.py:_on_file_modified():269] file/dir modified: C:\Users\murth\Desktop\DkIT\Dissertation\Codes\trails\wandb\run-20220624_125636-3cjf91ag\files\wandb-summary.json
+2022-06-24 13:02:51,081 ERROR   SenderThread:10352 [internal_api.py:execute():143] 409 response executing GraphQL.
+2022-06-24 13:02:51,081 ERROR   SenderThread:10352 [internal_api.py:execute():144] {"errors":[{"message":"Error 1062: Duplicate entry '1071744-3cjf91ag' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2022-06-24 13:02:51,710 INFO    WriterThread:10352 [datastore.py:close():279] close: C:\Users\murth\Desktop\DkIT\Dissertation\Codes\trails\wandb\run-20220624_125636-3cjf91ag\run-3cjf91ag.wandb
+2022-06-24 13:02:51,805 INFO    HandlerThread:10352 [handler.py:finish():806] shutting down handler
+2022-06-24 13:02:51,805 ERROR   MainThread:10352 [internal.py:wandb_internal():165] Thread SenderThread:
+Traceback (most recent call last):
+  File "C:\Users\murth\anaconda3\lib\site-packages\wandb\apis\normalize.py", line 22, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\murth\anaconda3\lib\site-packages\wandb\sdk\internal\internal_api.py", line 1319, in upsert_run
+    response = self.gql(mutation, variable_values=variable_values, **kwargs)
+  File "C:\Users\murth\anaconda3\lib\site-packages\wandb\sdk\lib\retry.py", line 102, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "C:\Users\murth\anaconda3\lib\site-packages\wandb\sdk\internal\internal_api.py", line 140, in execute
+    return self.client.execute(*args, **kwargs)
+  File "C:\Users\murth\anaconda3\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "C:\Users\murth\anaconda3\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "C:\Users\murth\anaconda3\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\transport\requests.py", line 39, in execute
+    request.raise_for_status()
+  File "C:\Users\murth\anaconda3\lib\site-packages\requests\models.py", line 953, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 409 Client Error: Conflict for url: https://api.wandb.ai/graphql
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\murth\anaconda3\lib\site-packages\wandb\sdk\internal\internal_util.py", line 51, in run
+    self._run()
+  File "C:\Users\murth\anaconda3\lib\site-packages\wandb\sdk\internal\internal_util.py", line 102, in _run
+    self._process(record)
+  File "C:\Users\murth\anaconda3\lib\site-packages\wandb\sdk\internal\internal.py", line 310, in _process
+    self._sm.send(record)
+  File "C:\Users\murth\anaconda3\lib\site-packages\wandb\sdk\internal\sender.py", line 237, in send
+    send_handler(record)
+  File "C:\Users\murth\anaconda3\lib\site-packages\wandb\sdk\internal\sender.py", line 251, in send_request
+    send_handler(record)
+  File "C:\Users\murth\anaconda3\lib\site-packages\wandb\sdk\internal\sender.py", line 411, in send_request_defer
+    self.debounce()
+  File "C:\Users\murth\anaconda3\lib\site-packages\wandb\sdk\internal\sender.py", line 320, in debounce
+    self._debounce_config()
+  File "C:\Users\murth\anaconda3\lib\site-packages\wandb\sdk\internal\sender.py", line 326, in _debounce_config
+    self._api.upsert_run(
+  File "C:\Users\murth\anaconda3\lib\site-packages\wandb\apis\normalize.py", line 24, in wrapper
+    raise CommError(err.response, err)
+wandb.errors.CommError: <Response [409]>
+2022-06-24 13:02:53,842 INFO    MainThread:10352 [internal.py:handle_exit():80] Internal process exited

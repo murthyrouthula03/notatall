@@ -1,0 +1,283 @@
+2022-06-24 04:02:36,072 INFO    MainThread:17508 [internal.py:wandb_internal():90] W&B internal server running at pid: 17508, started at: 2022-06-24 04:02:36.072501
+2022-06-24 04:02:36,074 INFO    WriterThread:17508 [datastore.py:open_for_write():75] open: C:\Users\murth\Desktop\DkIT\Dissertation\Codes\trails\wandb\run-20220624_040234-31s7s07x\run-31s7s07x.wandb
+2022-06-24 04:02:36,077 DEBUG   SenderThread:17508 [sender.py:send():235] send: header
+2022-06-24 04:02:36,077 DEBUG   SenderThread:17508 [sender.py:send():235] send: run
+2022-06-24 04:02:36,430 DEBUG   HandlerThread:17508 [handler.py:handle_request():141] handle_request: check_version
+2022-06-24 04:02:36,435 INFO    SenderThread:17508 [dir_watcher.py:__init__():205] watching files in: C:\Users\murth\Desktop\DkIT\Dissertation\Codes\trails\wandb\run-20220624_040234-31s7s07x\files
+2022-06-24 04:02:36,435 INFO    SenderThread:17508 [sender.py:_start_run_threads():812] run started: 31s7s07x with start time 1656039754
+2022-06-24 04:02:36,436 DEBUG   SenderThread:17508 [sender.py:send():235] send: summary
+2022-06-24 04:02:36,436 INFO    SenderThread:17508 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-24 04:02:36,436 DEBUG   SenderThread:17508 [sender.py:send_request():249] send_request: check_version
+2022-06-24 04:02:36,756 DEBUG   HandlerThread:17508 [handler.py:handle_request():141] handle_request: run_start
+2022-06-24 04:02:36,778 DEBUG   HandlerThread:17508 [meta.py:__init__():35] meta init
+2022-06-24 04:02:36,778 DEBUG   HandlerThread:17508 [meta.py:__init__():49] meta init done
+2022-06-24 04:02:36,782 DEBUG   HandlerThread:17508 [meta.py:probe():209] probe
+2022-06-24 04:02:36,789 DEBUG   HandlerThread:17508 [meta.py:_setup_git():199] setup git
+2022-06-24 04:02:36,856 DEBUG   HandlerThread:17508 [meta.py:_setup_git():206] setup git done
+2022-06-24 04:02:36,857 DEBUG   HandlerThread:17508 [meta.py:_save_pip():53] save pip
+2022-06-24 04:02:36,858 DEBUG   HandlerThread:17508 [meta.py:_save_pip():67] save pip done
+2022-06-24 04:02:36,858 DEBUG   HandlerThread:17508 [meta.py:_save_conda():74] save conda
+2022-06-24 04:02:37,441 INFO    Thread-11 :17508 [dir_watcher.py:_on_file_created():256] file/dir created: C:\Users\murth\Desktop\DkIT\Dissertation\Codes\trails\wandb\run-20220624_040234-31s7s07x\files\requirements.txt
+2022-06-24 04:02:37,441 INFO    Thread-11 :17508 [dir_watcher.py:_on_file_created():256] file/dir created: C:\Users\murth\Desktop\DkIT\Dissertation\Codes\trails\wandb\run-20220624_040234-31s7s07x\files\conda-environment.yaml
+2022-06-24 04:02:37,441 INFO    Thread-11 :17508 [dir_watcher.py:_on_file_created():256] file/dir created: C:\Users\murth\Desktop\DkIT\Dissertation\Codes\trails\wandb\run-20220624_040234-31s7s07x\files\wandb-summary.json
+2022-06-24 04:02:42,473 INFO    Thread-11 :17508 [dir_watcher.py:_on_file_created():256] file/dir created: C:\Users\murth\Desktop\DkIT\Dissertation\Codes\trails\wandb\run-20220624_040234-31s7s07x\files\output.log
+2022-06-24 04:03:05,821 INFO    Thread-11 :17508 [dir_watcher.py:_on_file_modified():269] file/dir modified: C:\Users\murth\Desktop\DkIT\Dissertation\Codes\trails\wandb\run-20220624_040234-31s7s07x\files\conda-environment.yaml
+2022-06-24 04:03:05,947 DEBUG   HandlerThread:17508 [meta.py:_save_conda():84] save conda done
+2022-06-24 04:03:05,951 DEBUG   HandlerThread:17508 [meta.py:probe():247] probe done
+2022-06-24 04:03:06,824 INFO    Thread-11 :17508 [dir_watcher.py:_on_file_created():256] file/dir created: C:\Users\murth\Desktop\DkIT\Dissertation\Codes\trails\wandb\run-20220624_040234-31s7s07x\files\wandb-metadata.json
+2022-06-24 04:03:07,260 DEBUG   HandlerThread:17508 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 04:03:07,260 DEBUG   SenderThread:17508 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 04:03:07,260 DEBUG   HandlerThread:17508 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 04:03:07,589 DEBUG   SenderThread:17508 [sender.py:send():235] send: telemetry
+2022-06-24 04:03:07,589 DEBUG   SenderThread:17508 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 04:03:07,885 DEBUG   SenderThread:17508 [sender.py:send():235] send: files
+2022-06-24 04:03:07,885 INFO    SenderThread:17508 [sender.py:_save_file():949] saving file wandb-metadata.json with policy now
+2022-06-24 04:03:08,866 INFO    Thread-17 :17508 [upload_job.py:push():132] Uploaded file C:\Users\murth\AppData\Local\Temp\tmpw2wdtgtfwandb\27myc00w-wandb-metadata.json
+2022-06-24 04:03:09,176 DEBUG   SenderThread:17508 [sender.py:send():235] send: stats
+2022-06-24 04:03:21,829 DEBUG   HandlerThread:17508 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 04:03:21,829 DEBUG   SenderThread:17508 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 04:03:25,496 DEBUG   HandlerThread:17508 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-24 04:03:37,151 DEBUG   HandlerThread:17508 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 04:03:37,152 DEBUG   SenderThread:17508 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 04:03:37,340 INFO    Thread-11 :17508 [dir_watcher.py:_on_file_modified():269] file/dir modified: C:\Users\murth\Desktop\DkIT\Dissertation\Codes\trails\wandb\run-20220624_040234-31s7s07x\files\config.yaml
+2022-06-24 04:03:44,190 DEBUG   SenderThread:17508 [sender.py:send():235] send: stats
+2022-06-24 04:03:52,529 DEBUG   HandlerThread:17508 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 04:03:52,532 DEBUG   SenderThread:17508 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 04:03:58,368 DEBUG   HandlerThread:17508 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-24 04:03:58,370 DEBUG   SenderThread:17508 [sender.py:send():235] send: history
+2022-06-24 04:03:58,370 DEBUG   SenderThread:17508 [sender.py:send():235] send: summary
+2022-06-24 04:03:58,372 INFO    SenderThread:17508 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-24 04:03:58,705 INFO    Thread-11 :17508 [dir_watcher.py:_on_file_modified():269] file/dir modified: C:\Users\murth\Desktop\DkIT\Dissertation\Codes\trails\wandb\run-20220624_040234-31s7s07x\files\wandb-summary.json
+2022-06-24 04:04:07,850 DEBUG   HandlerThread:17508 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 04:04:07,852 DEBUG   SenderThread:17508 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 04:04:19,485 DEBUG   SenderThread:17508 [sender.py:send():235] send: stats
+2022-06-24 04:04:23,204 DEBUG   HandlerThread:17508 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 04:04:23,204 DEBUG   SenderThread:17508 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 04:04:34,881 DEBUG   HandlerThread:17508 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-24 04:04:34,881 DEBUG   SenderThread:17508 [sender.py:send():235] send: history
+2022-06-24 04:04:34,881 DEBUG   SenderThread:17508 [sender.py:send():235] send: summary
+2022-06-24 04:04:34,897 INFO    SenderThread:17508 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-24 04:04:35,409 INFO    Thread-11 :17508 [dir_watcher.py:_on_file_modified():269] file/dir modified: C:\Users\murth\Desktop\DkIT\Dissertation\Codes\trails\wandb\run-20220624_040234-31s7s07x\files\wandb-summary.json
+2022-06-24 04:04:38,543 DEBUG   HandlerThread:17508 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 04:04:38,543 DEBUG   SenderThread:17508 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 04:04:53,889 DEBUG   HandlerThread:17508 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 04:04:53,892 DEBUG   SenderThread:17508 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 04:04:54,737 DEBUG   SenderThread:17508 [sender.py:send():235] send: stats
+2022-06-24 04:05:06,362 DEBUG   HandlerThread:17508 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-24 04:05:06,363 DEBUG   SenderThread:17508 [sender.py:send():235] send: history
+2022-06-24 04:05:06,363 DEBUG   SenderThread:17508 [sender.py:send():235] send: summary
+2022-06-24 04:05:06,364 INFO    SenderThread:17508 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-24 04:05:06,784 INFO    Thread-11 :17508 [dir_watcher.py:_on_file_modified():269] file/dir modified: C:\Users\murth\Desktop\DkIT\Dissertation\Codes\trails\wandb\run-20220624_040234-31s7s07x\files\wandb-summary.json
+2022-06-24 04:05:09,231 DEBUG   HandlerThread:17508 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 04:05:09,231 DEBUG   SenderThread:17508 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 04:05:24,556 DEBUG   HandlerThread:17508 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 04:05:24,556 DEBUG   SenderThread:17508 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 04:05:29,816 DEBUG   SenderThread:17508 [sender.py:send():235] send: stats
+2022-06-24 04:05:36,904 DEBUG   HandlerThread:17508 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-24 04:05:36,905 DEBUG   SenderThread:17508 [sender.py:send():235] send: history
+2022-06-24 04:05:36,905 DEBUG   SenderThread:17508 [sender.py:send():235] send: summary
+2022-06-24 04:05:36,906 INFO    SenderThread:17508 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-24 04:05:37,305 INFO    Thread-11 :17508 [dir_watcher.py:_on_file_modified():269] file/dir modified: C:\Users\murth\Desktop\DkIT\Dissertation\Codes\trails\wandb\run-20220624_040234-31s7s07x\files\wandb-summary.json
+2022-06-24 04:05:39,909 DEBUG   HandlerThread:17508 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 04:05:39,910 DEBUG   SenderThread:17508 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 04:05:55,240 DEBUG   HandlerThread:17508 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 04:05:55,240 DEBUG   SenderThread:17508 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 04:06:04,522 DEBUG   SenderThread:17508 [sender.py:send():235] send: stats
+2022-06-24 04:06:06,468 DEBUG   HandlerThread:17508 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-24 04:06:06,468 DEBUG   SenderThread:17508 [sender.py:send():235] send: history
+2022-06-24 04:06:06,468 DEBUG   SenderThread:17508 [sender.py:send():235] send: summary
+2022-06-24 04:06:06,468 INFO    SenderThread:17508 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-24 04:06:06,733 INFO    Thread-11 :17508 [dir_watcher.py:_on_file_modified():269] file/dir modified: C:\Users\murth\Desktop\DkIT\Dissertation\Codes\trails\wandb\run-20220624_040234-31s7s07x\files\wandb-summary.json
+2022-06-24 04:06:10,545 DEBUG   HandlerThread:17508 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 04:06:10,545 DEBUG   SenderThread:17508 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 04:06:25,951 DEBUG   HandlerThread:17508 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 04:06:25,951 DEBUG   SenderThread:17508 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 04:06:36,756 DEBUG   HandlerThread:17508 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-24 04:06:36,756 DEBUG   SenderThread:17508 [sender.py:send():235] send: history
+2022-06-24 04:06:36,756 DEBUG   SenderThread:17508 [sender.py:send():235] send: summary
+2022-06-24 04:06:36,756 INFO    SenderThread:17508 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-24 04:06:37,200 INFO    Thread-11 :17508 [dir_watcher.py:_on_file_modified():269] file/dir modified: C:\Users\murth\Desktop\DkIT\Dissertation\Codes\trails\wandb\run-20220624_040234-31s7s07x\files\wandb-summary.json
+2022-06-24 04:06:39,539 DEBUG   SenderThread:17508 [sender.py:send():235] send: stats
+2022-06-24 04:06:41,381 DEBUG   HandlerThread:17508 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 04:06:41,381 DEBUG   SenderThread:17508 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 04:06:56,857 DEBUG   HandlerThread:17508 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 04:06:56,858 DEBUG   SenderThread:17508 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 04:07:08,400 DEBUG   HandlerThread:17508 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-24 04:07:08,401 DEBUG   SenderThread:17508 [sender.py:send():235] send: history
+2022-06-24 04:07:08,402 DEBUG   SenderThread:17508 [sender.py:send():235] send: summary
+2022-06-24 04:07:08,436 INFO    SenderThread:17508 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-24 04:07:08,661 INFO    Thread-11 :17508 [dir_watcher.py:_on_file_modified():269] file/dir modified: C:\Users\murth\Desktop\DkIT\Dissertation\Codes\trails\wandb\run-20220624_040234-31s7s07x\files\wandb-summary.json
+2022-06-24 04:07:12,352 DEBUG   HandlerThread:17508 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 04:07:12,352 DEBUG   SenderThread:17508 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 04:07:14,604 DEBUG   SenderThread:17508 [sender.py:send():235] send: stats
+2022-06-24 04:07:27,714 DEBUG   HandlerThread:17508 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 04:07:27,714 DEBUG   SenderThread:17508 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 04:07:38,292 DEBUG   HandlerThread:17508 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-24 04:07:38,293 DEBUG   SenderThread:17508 [sender.py:send():235] send: history
+2022-06-24 04:07:38,293 DEBUG   SenderThread:17508 [sender.py:send():235] send: summary
+2022-06-24 04:07:38,294 INFO    SenderThread:17508 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-24 04:07:39,140 INFO    Thread-11 :17508 [dir_watcher.py:_on_file_modified():269] file/dir modified: C:\Users\murth\Desktop\DkIT\Dissertation\Codes\trails\wandb\run-20220624_040234-31s7s07x\files\wandb-summary.json
+2022-06-24 04:07:43,057 DEBUG   HandlerThread:17508 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 04:07:43,057 DEBUG   SenderThread:17508 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 04:07:49,699 DEBUG   SenderThread:17508 [sender.py:send():235] send: stats
+2022-06-24 04:07:58,431 DEBUG   HandlerThread:17508 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 04:07:58,432 DEBUG   SenderThread:17508 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 04:08:08,184 DEBUG   HandlerThread:17508 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-24 04:08:08,184 DEBUG   SenderThread:17508 [sender.py:send():235] send: history
+2022-06-24 04:08:08,184 DEBUG   SenderThread:17508 [sender.py:send():235] send: summary
+2022-06-24 04:08:08,186 INFO    SenderThread:17508 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-24 04:08:08,583 INFO    Thread-11 :17508 [dir_watcher.py:_on_file_modified():269] file/dir modified: C:\Users\murth\Desktop\DkIT\Dissertation\Codes\trails\wandb\run-20220624_040234-31s7s07x\files\wandb-summary.json
+2022-06-24 04:08:13,751 DEBUG   HandlerThread:17508 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 04:08:13,751 DEBUG   SenderThread:17508 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 04:08:24,563 DEBUG   SenderThread:17508 [sender.py:send():235] send: stats
+2022-06-24 04:08:29,096 DEBUG   HandlerThread:17508 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 04:08:29,097 DEBUG   SenderThread:17508 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 04:08:37,969 DEBUG   HandlerThread:17508 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-24 04:08:37,969 DEBUG   SenderThread:17508 [sender.py:send():235] send: history
+2022-06-24 04:08:37,969 DEBUG   SenderThread:17508 [sender.py:send():235] send: summary
+2022-06-24 04:08:37,969 INFO    SenderThread:17508 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-24 04:08:38,127 INFO    Thread-11 :17508 [dir_watcher.py:_on_file_modified():269] file/dir modified: C:\Users\murth\Desktop\DkIT\Dissertation\Codes\trails\wandb\run-20220624_040234-31s7s07x\files\wandb-summary.json
+2022-06-24 04:08:44,501 DEBUG   HandlerThread:17508 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 04:08:44,501 DEBUG   SenderThread:17508 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 04:08:59,813 DEBUG   HandlerThread:17508 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 04:08:59,813 DEBUG   SenderThread:17508 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 04:09:00,169 DEBUG   SenderThread:17508 [sender.py:send():235] send: stats
+2022-06-24 04:09:07,454 DEBUG   HandlerThread:17508 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-24 04:09:07,454 DEBUG   SenderThread:17508 [sender.py:send():235] send: history
+2022-06-24 04:09:07,454 DEBUG   SenderThread:17508 [sender.py:send():235] send: summary
+2022-06-24 04:09:07,454 INFO    SenderThread:17508 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-24 04:09:07,565 INFO    Thread-11 :17508 [dir_watcher.py:_on_file_modified():269] file/dir modified: C:\Users\murth\Desktop\DkIT\Dissertation\Codes\trails\wandb\run-20220624_040234-31s7s07x\files\wandb-summary.json
+2022-06-24 04:09:15,180 DEBUG   HandlerThread:17508 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 04:09:15,181 DEBUG   SenderThread:17508 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 04:09:31,367 DEBUG   HandlerThread:17508 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 04:09:31,368 DEBUG   SenderThread:17508 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 04:09:41,636 DEBUG   HandlerThread:17508 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-24 04:09:46,036 DEBUG   SenderThread:17508 [sender.py:send():235] send: stats
+2022-06-24 04:09:46,037 DEBUG   SenderThread:17508 [sender.py:send():235] send: history
+2022-06-24 04:09:46,037 DEBUG   SenderThread:17508 [sender.py:send():235] send: summary
+2022-06-24 04:09:46,038 INFO    SenderThread:17508 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-24 04:09:46,384 INFO    Thread-11 :17508 [dir_watcher.py:_on_file_modified():269] file/dir modified: C:\Users\murth\Desktop\DkIT\Dissertation\Codes\trails\wandb\run-20220624_040234-31s7s07x\files\wandb-summary.json
+2022-06-24 04:09:51,418 DEBUG   HandlerThread:17508 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 04:09:51,419 DEBUG   SenderThread:17508 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 04:10:10,853 DEBUG   SenderThread:17508 [sender.py:send():235] send: stats
+2022-06-24 04:10:11,438 DEBUG   HandlerThread:17508 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 04:10:11,438 DEBUG   SenderThread:17508 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 04:10:17,243 DEBUG   HandlerThread:17508 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-24 04:10:31,484 DEBUG   HandlerThread:17508 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 04:10:49,275 DEBUG   SenderThread:17508 [sender.py:send():235] send: history
+2022-06-24 04:10:49,275 DEBUG   SenderThread:17508 [sender.py:send():235] send: summary
+2022-06-24 04:10:49,279 INFO    SenderThread:17508 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-24 04:10:49,281 DEBUG   SenderThread:17508 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 04:10:49,537 DEBUG   SenderThread:17508 [sender.py:send():235] send: stats
+2022-06-24 04:10:49,759 INFO    Thread-11 :17508 [dir_watcher.py:_on_file_modified():269] file/dir modified: C:\Users\murth\Desktop\DkIT\Dissertation\Codes\trails\wandb\run-20220624_040234-31s7s07x\files\wandb-summary.json
+2022-06-24 04:10:51,512 DEBUG   HandlerThread:17508 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 04:10:51,512 DEBUG   SenderThread:17508 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 04:10:54,152 DEBUG   HandlerThread:17508 [handler.py:handle_request():141] handle_request: partial_history
+2022-06-24 04:10:54,153 DEBUG   SenderThread:17508 [sender.py:send():235] send: history
+2022-06-24 04:10:54,153 DEBUG   SenderThread:17508 [sender.py:send():235] send: summary
+2022-06-24 04:10:54,154 INFO    SenderThread:17508 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-24 04:10:54,886 INFO    Thread-11 :17508 [dir_watcher.py:_on_file_modified():269] file/dir modified: C:\Users\murth\Desktop\DkIT\Dissertation\Codes\trails\wandb\run-20220624_040234-31s7s07x\files\wandb-summary.json
+2022-06-24 04:10:58,516 DEBUG   HandlerThread:17508 [handler.py:handle_request():141] handle_request: pause
+2022-06-24 04:10:58,516 INFO    HandlerThread:17508 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-06-24 04:10:58,625 DEBUG   SenderThread:17508 [sender.py:send():235] send: stats
+2022-06-24 04:11:06,805 DEBUG   HandlerThread:17508 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 04:11:06,805 DEBUG   SenderThread:17508 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 04:11:22,061 DEBUG   HandlerThread:17508 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 04:11:22,061 DEBUG   SenderThread:17508 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 04:11:37,293 DEBUG   HandlerThread:17508 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 04:11:37,293 DEBUG   SenderThread:17508 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 04:11:52,585 DEBUG   HandlerThread:17508 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 04:11:52,586 DEBUG   SenderThread:17508 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 04:12:07,888 DEBUG   HandlerThread:17508 [handler.py:handle_request():141] handle_request: stop_status
+2022-06-24 04:12:07,888 DEBUG   SenderThread:17508 [sender.py:send_request():249] send_request: stop_status
+2022-06-24 04:12:08,711 DEBUG   SenderThread:17508 [sender.py:send():235] send: telemetry
+2022-06-24 04:12:09,366 DEBUG   SenderThread:17508 [sender.py:send():235] send: exit
+2022-06-24 04:12:09,366 INFO    SenderThread:17508 [sender.py:send_exit():371] handling exit code: 0
+2022-06-24 04:12:09,366 INFO    SenderThread:17508 [sender.py:send_exit():373] handling runtime: 501
+2022-06-24 04:12:09,366 DEBUG   HandlerThread:17508 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-24 04:12:09,366 INFO    SenderThread:17508 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-24 04:12:09,381 INFO    SenderThread:17508 [sender.py:send_exit():379] send defer
+2022-06-24 04:12:09,381 DEBUG   SenderThread:17508 [sender.py:send_request():249] send_request: poll_exit
+2022-06-24 04:12:09,381 DEBUG   HandlerThread:17508 [handler.py:handle_request():141] handle_request: defer
+2022-06-24 04:12:09,381 INFO    HandlerThread:17508 [handler.py:handle_request_defer():164] handle defer: 0
+2022-06-24 04:12:09,381 DEBUG   SenderThread:17508 [sender.py:send_request():249] send_request: defer
+2022-06-24 04:12:09,381 INFO    SenderThread:17508 [sender.py:send_request_defer():388] handle sender defer: 0
+2022-06-24 04:12:09,381 INFO    SenderThread:17508 [sender.py:transition_state():392] send defer: 1
+2022-06-24 04:12:09,381 DEBUG   HandlerThread:17508 [handler.py:handle_request():141] handle_request: defer
+2022-06-24 04:12:09,381 INFO    HandlerThread:17508 [handler.py:handle_request_defer():164] handle defer: 1
+2022-06-24 04:12:09,381 DEBUG   SenderThread:17508 [sender.py:send_request():249] send_request: defer
+2022-06-24 04:12:09,381 INFO    SenderThread:17508 [sender.py:send_request_defer():388] handle sender defer: 1
+2022-06-24 04:12:09,381 INFO    SenderThread:17508 [sender.py:transition_state():392] send defer: 2
+2022-06-24 04:12:09,381 DEBUG   HandlerThread:17508 [handler.py:handle_request():141] handle_request: defer
+2022-06-24 04:12:09,381 INFO    HandlerThread:17508 [handler.py:handle_request_defer():164] handle defer: 2
+2022-06-24 04:12:09,390 DEBUG   SenderThread:17508 [sender.py:send():235] send: history
+2022-06-24 04:12:09,390 DEBUG   SenderThread:17508 [sender.py:send():235] send: summary
+2022-06-24 04:12:09,390 INFO    SenderThread:17508 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-24 04:12:09,390 DEBUG   SenderThread:17508 [sender.py:send_request():249] send_request: defer
+2022-06-24 04:12:09,390 INFO    SenderThread:17508 [sender.py:send_request_defer():388] handle sender defer: 2
+2022-06-24 04:12:09,390 INFO    SenderThread:17508 [sender.py:transition_state():392] send defer: 3
+2022-06-24 04:12:09,390 DEBUG   HandlerThread:17508 [handler.py:handle_request():141] handle_request: defer
+2022-06-24 04:12:09,397 INFO    HandlerThread:17508 [handler.py:handle_request_defer():164] handle defer: 3
+2022-06-24 04:12:09,397 DEBUG   SenderThread:17508 [sender.py:send_request():249] send_request: defer
+2022-06-24 04:12:09,397 INFO    SenderThread:17508 [sender.py:send_request_defer():388] handle sender defer: 3
+2022-06-24 04:12:09,397 INFO    SenderThread:17508 [sender.py:transition_state():392] send defer: 4
+2022-06-24 04:12:09,397 DEBUG   HandlerThread:17508 [handler.py:handle_request():141] handle_request: defer
+2022-06-24 04:12:09,397 INFO    HandlerThread:17508 [handler.py:handle_request_defer():164] handle defer: 4
+2022-06-24 04:12:09,397 DEBUG   SenderThread:17508 [sender.py:send():235] send: summary
+2022-06-24 04:12:09,397 INFO    SenderThread:17508 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-06-24 04:12:09,397 DEBUG   SenderThread:17508 [sender.py:send_request():249] send_request: defer
+2022-06-24 04:12:09,397 INFO    SenderThread:17508 [sender.py:send_request_defer():388] handle sender defer: 4
+2022-06-24 04:12:09,397 INFO    SenderThread:17508 [sender.py:transition_state():392] send defer: 5
+2022-06-24 04:12:09,397 DEBUG   HandlerThread:17508 [handler.py:handle_request():141] handle_request: defer
+2022-06-24 04:12:09,397 INFO    HandlerThread:17508 [handler.py:handle_request_defer():164] handle defer: 5
+2022-06-24 04:12:09,397 DEBUG   SenderThread:17508 [sender.py:send_request():249] send_request: defer
+2022-06-24 04:12:09,397 INFO    SenderThread:17508 [sender.py:send_request_defer():388] handle sender defer: 5
+2022-06-24 04:12:09,507 DEBUG   HandlerThread:17508 [handler.py:handle_request():141] handle_request: poll_exit
+2022-06-24 04:12:09,553 INFO    Thread-11 :17508 [dir_watcher.py:_on_file_modified():269] file/dir modified: C:\Users\murth\Desktop\DkIT\Dissertation\Codes\trails\wandb\run-20220624_040234-31s7s07x\files\wandb-summary.json
+2022-06-24 04:12:10,046 ERROR   SenderThread:17508 [internal_api.py:execute():143] 409 response executing GraphQL.
+2022-06-24 04:12:10,046 ERROR   SenderThread:17508 [internal_api.py:execute():144] {"errors":[{"message":"Error 1062: Duplicate entry '1071744-31s7s07x' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2022-06-24 04:12:10,401 INFO    WriterThread:17508 [datastore.py:close():279] close: C:\Users\murth\Desktop\DkIT\Dissertation\Codes\trails\wandb\run-20220624_040234-31s7s07x\run-31s7s07x.wandb
+2022-06-24 04:12:10,511 INFO    HandlerThread:17508 [handler.py:finish():806] shutting down handler
+2022-06-24 04:12:10,511 ERROR   MainThread:17508 [internal.py:wandb_internal():165] Thread SenderThread:
+Traceback (most recent call last):
+  File "C:\Users\murth\anaconda3\lib\site-packages\wandb\apis\normalize.py", line 22, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\murth\anaconda3\lib\site-packages\wandb\sdk\internal\internal_api.py", line 1319, in upsert_run
+    response = self.gql(mutation, variable_values=variable_values, **kwargs)
+  File "C:\Users\murth\anaconda3\lib\site-packages\wandb\sdk\lib\retry.py", line 102, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "C:\Users\murth\anaconda3\lib\site-packages\wandb\sdk\internal\internal_api.py", line 140, in execute
+    return self.client.execute(*args, **kwargs)
+  File "C:\Users\murth\anaconda3\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "C:\Users\murth\anaconda3\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "C:\Users\murth\anaconda3\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\transport\requests.py", line 39, in execute
+    request.raise_for_status()
+  File "C:\Users\murth\anaconda3\lib\site-packages\requests\models.py", line 953, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 409 Client Error: Conflict for url: https://api.wandb.ai/graphql
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\murth\anaconda3\lib\site-packages\wandb\sdk\internal\internal_util.py", line 51, in run
+    self._run()
+  File "C:\Users\murth\anaconda3\lib\site-packages\wandb\sdk\internal\internal_util.py", line 102, in _run
+    self._process(record)
+  File "C:\Users\murth\anaconda3\lib\site-packages\wandb\sdk\internal\internal.py", line 310, in _process
+    self._sm.send(record)
+  File "C:\Users\murth\anaconda3\lib\site-packages\wandb\sdk\internal\sender.py", line 237, in send
+    send_handler(record)
+  File "C:\Users\murth\anaconda3\lib\site-packages\wandb\sdk\internal\sender.py", line 251, in send_request
+    send_handler(record)
+  File "C:\Users\murth\anaconda3\lib\site-packages\wandb\sdk\internal\sender.py", line 411, in send_request_defer
+    self.debounce()
+  File "C:\Users\murth\anaconda3\lib\site-packages\wandb\sdk\internal\sender.py", line 320, in debounce
+    self._debounce_config()
+  File "C:\Users\murth\anaconda3\lib\site-packages\wandb\sdk\internal\sender.py", line 326, in _debounce_config
+    self._api.upsert_run(
+  File "C:\Users\murth\anaconda3\lib\site-packages\wandb\apis\normalize.py", line 24, in wrapper
+    raise CommError(err.response, err)
+wandb.errors.CommError: <Response [409]>
+2022-06-24 04:12:12,563 INFO    MainThread:17508 [internal.py:handle_exit():80] Internal process exited
